@@ -1,0 +1,174 @@
+
+body{
+    font-family:'Montserrat-Black', sans-serif;
+}
+a:hover{
+    color:white!Important;
+}
+.nav-brand{
+    color: white!Important;
+}
+#Home
+{
+    background-color: #031633;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+/* The targeting of the navbar padding help to distance the navbar and the head content */
+.navbar{
+    padding-bottom: 4rem;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-link{
+    font-family:'Montserrat-Black', sans-serif ;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.contin-h1{
+padding-top:0.9375rem;
+color: #6c757d;
+font-family: 'Montserrat-Black', sans-serif;
+font-size: 2rem;
+line-height: 1.2;
+}
+/** Transform properity is used to rotate an object in a dev container or not**/
+.contin-img1{
+    transform:rotate(0);
+    width:210px;
+    height: 250px;
+    border-radius: 48%;
+}
+/** class="btn-row1"/class="ul" **/
+.buttonrow1{
+margin: 2% 2% 2% 0%!Important;
+}
+/** Icon section**/
+.Icons{
+    font-family: 'Montserrat- bold', sans-serif;
+}
+.row2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contin2-h1{
+color:#031633! important;
+font-family:'Montserrat-black', sans-serif!important;
+font-size: 1.5rem;
+font-weight: 900;
+}
+.continp1{
+color: gray;
+font-family:'Montserrat', sans-serif ;
+font: size 0.5rem;
+}
+.iclass1{
+    margin: 20px 0px!Important;
+}
+.iclass1:hover{
+    color: gray!important;
+}
+/** Review **/
+#Review{
+    background-color: #031633;
+    text-align: center;
+   
+}
+.imgcarousal{
+    margin:40px;
+    padding-bottom:12%;
+    border-radius: 50%;
+    max-width: 50%;
+    max-height:50%;
+}
+
+h2{
+color:#6c757d! Important;
+font-family:'Montserrat-black', sans-serif! Important;
+font-size: 1.5rem;
+font-weight: 900;
+}
+
+.ptext{
+color: gray;
+font-family:'Montserrat', sans-serif ;
+font-size: 1rem;
+}
+
+/** @media query**/
+@media(max-width: 767px)
+ {
+    .reviewdiv1{
+        display: block!important;
+        position:static!important;
+    }
+    
+    }
+/** Signup **/
+.signupbody{
+    background-color: #031633!important;
+}
+#Signup{
+        background-color: #031633!important;
+        padding-top:30px;
+        margin: 0;
+        width:auto;
+ }
+/** Login Section **/
+
+#Login{
+padding-top:50px;
+padding-bottom: 50px;
+width:auto;
+}
+.loginform{
+  
+   padding-bottom: 10px;
+}
+.sm{
+    font-size: 1rem;
+}
+.sign{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 1rem;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    color:#031633!important;
+}
+.signin{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.keepmelogin{
+padding:20px 0;
+
+}
+
+/** footer**/
+#footer{
+    padding:1% 0;
+    background-color: #031633;
+}
+.divfooter{
+    font-family: 'Cinzel', serif;
+    font-size: auto;
+    text-decoration: none!important;
+    color:#6c757d;
+}
+.Pfooter{
+    padding-top:30px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-family: 'Cinzel', serif;
+    color:gray;
+}
+.P1footer{
+    padding-top:5px;
+    font-size: 0.5rem;
+    font-family: 'Cinzel', serif;
+    color:gray;
+}

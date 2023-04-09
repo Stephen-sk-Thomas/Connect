@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport use as a responsve system that helps our webpage adapt to different device sizes-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstraps CDN  and Css links -- as a rule always put the bootstrap cdn above the css style link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- Google fonts cdn link - as a reference it's use to adapt font size and is very important for every webpage creation-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Cinzel:wght@700&family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="" type="">
+    <!-- Fontawesome.com cdn - provides icon like apple - google or signs of differnt company-->
+    <script src="https://kit.fontawesome.com/de2e2022ee.js" crossorigin="anonymous"></script>
+    <title> Connect </title>
+</head>
+<body class="signupbody">
+    <section id="Signup">
+        <div class="container-fluid">
+      <div class="row ">
+        <div class="mx-auto  col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="sign"> 
+          </div>
+         <div class="signin">
+           <button type="button"  class="btn  btn-outline-secondary btn-md" >
+            <i class="fa-brands fa-google fa-lg"></i>
+           </button>
+           <button type="btn"   class="btn  btn-outline-secondary btn-md">
+            <i class="fa-brands fa-facebook fa-lg"></i>
+           </button>
+           <button type="btn"  class="btn  btn-outline-secondary btn-md">
+            <i class="fa-brands fa-instagram  fa-lg"></i>
+           </button>
+           <button type="btn"   class="btn  btn-outline-secondary btn-md">
+            <i class="fa-brands fa-github fa-lg"></i>
+           </button>
+           <button type="btn"    class="btn  btn-outline-secondary btn-md">
+            <i class="fa-brands fa-linkedin fa-lg"></i>
+           </button>
+         </div>
+      <form class="form1" action="signup" post="method" enctype="">
+        <div class="form-group  loginform">
+             <input type="text" class="form-control" id="First Name" placeholder="Given Name">
+             <label  for=""> First Name </label>
+          </div>
+          <div class="form-group  loginform">
+            <input type="text" class="form-control" id="Last Name" placeholder="Enter Surname">
+            <label  for=""> Last Name </label>
+         </div>
+         <div class="form-group  loginform">
+            <input type="text" class="form-control" id="Address" placeholder="street name and number;">
+            <label  for=""> Address </label>
+         </div>
+         <div class="form-group  loginform">
+            <input type="text" class="form-control" id="Email" placeholder="janedoe@">
+            <label  for=""> Email </label>
+         </div>
+          <div class="form-group  loginform">
+               <input type="text" class="form-control " id="password" placeholder="Password">
+               <label  for=""> Password </label>
+            </div>
+         <div>
+        <input type="checkbox" value="Keep me Login" id="Keep me Login">
+        <Label class="keepmelogin">  Remember me </Label>
+        </div>
+       <button type="button" class="btn btn-md btn-outline-secondary">
+          Signup
+       </button>
+      </form>
+    </div>
+    </div>
+    </div>
+        </section>
+</body>
+</html>

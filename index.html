@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport use as a responsve system that helps our webpage adapt to different device sizes-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstraps CDN  and Css links -- as a rule always put the bootstrap cdn above the css style link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- Google fonts cdn link - as a reference it's use to adapt font size and is very important for every webpage creation-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Cinzel:wght@400;700&family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="Image/favicon.ico" type="">
+    <!-- Fontawesome.com cdn - provides icon like apple - google or signs of differnt company-->
+    <script src="https://kit.fontawesome.com/de2e2022ee.js" crossorigin="anonymous"></script>
+    <title> Connect </title>
+</head>
+<body>
+  <!-- Sections helps to define a section in a web document.-->
+ <section id="Home">
+  <!-- container-- as a reference it's use to contain elements in a responsive format
+
+    1.container-This container takes the full width of a viewport but jumps, don't adapt.
+    2. container-fluid- This container takes the full width and adapt to the screen size, good for adaptability.
+  -->
+    <div class="container-fluid">
+      <!-- Nav bar = Is use to create a navigation section on a webpage.-->
+     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+         <a class="navbar-brand" href=""> CONNECT </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="">🫂</a>
+          <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#Home"> Home </a></li>
+          <li class="nav-item"><a class="nav-link" href="#Review"> Reviews </a></li>
+          <li class="nav-item"><a class="nav-link" href="#Login"> Login </a></li>
+          <li class="nav-item"><a class="nav-link" href="Signup.html"> Sign up </a></li>
+          </ul>
+        </div>
+     </nav>
+          <div class="row">
+                <div class="col-lg-6 ">
+                      <h1 class="contin-h1"> Berlin housing crisis!
+                           How we find our family a home?
+                           <br> Join CONNECT </h1><br>
+                           <!-- button = btn class is use to create a button using bootstrap deisgn system-->
+                      <button type="button"  class="btn btn-outline-secondary btn-lg buttonrow1"><i class="fa-brands fa-apple" style="color:white;"></i> Download</button> 
+                      <button type="button"  class="btn btn-outline-secondary btn-lg buttonrow1"><i class="fa-brands fa-google-play" style="color:white;"></i> Download</button>
+                </div>
+                 <div class="col-lg-6"><br>
+                    <img class="contin-img1" src="https://media.istockphoto.com/id/1216562018/photo/african-father-son-and-daughter-listening-music-dancing-at-home.jpg?s=612x612&w=0&k=20&c=dURp30u9wLDIEDMcNFJcGkNDYVkbAv90yyKd-Ut1CtM=">
+                  </div>
+          </div>
+    </div>
+ </section> 
+<!-- Carousel = This element is use to make make a interative slide show of photos and text
+ Example: When you want to make a photo go previous or next-->
+    <section id="Icons">
+     <div class="container-fluid">
+      <div class="row row2">
+        <div class="col-lg-4 col-md-12">
+          <i class="fa-solid fa-people-group fa-xl  iclass1" style="color: #031633;"></i>
+          <h1 class="contin2-h1"> We </h1>
+          <p class="continp1">Finding a home in the heat of berlin housing crisis ? We are here and will always be here for you!</p>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <i class="fa-solid fa-bell-slash fa-xl  iclass1" style="color:#031633;"></i>
+          <h1 class="contin2-h1"> Have a </h1>
+          <p class="continp1">Solving a problem for which you know there's an answer is like climbing a mountain with a guide</p>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <i class="fa-solid fa-house-lock fa-xl  iclass1" style="color: #031633;"></i>
+          <h1 class="contin2-h1"> Home </h1>
+          <p class="continp1">The good comes from the continuing struggle to try and solve them, not from the vain hope of their solution</p>
+        </div>
+      </div>
+     </div>
+    </section>
+<!-- Carousel is use as a display slid show for photos or items, you want to show on a platform-->
+    <section id="Review">
+      <div id="reviewimg" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#reviewimg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#reviewimg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#reviewimg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#reviewimg" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="https://t3.ftcdn.net/jpg/01/95/60/30/360_F_195603012_qqlQ7vDuau7pt13C5OpnUxgz5WX0P9z5.jpg" class="imgcarousal">
+            <div class="carousel-caption d-none d-md-block reviewdiv1">
+              <h2 > John Kahler </h2>
+              <p class="ptext"> Nicely renovated in a cool neighbourhood close to metro and lots of transit, Conect is making a huge difference in berlin. Comfortable bed and well prepared small kitchen.</p>
+             </div>
+           </div>
+           <div class="carousel-item" data-bs-interval="8000">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtq9s1AFJlYiGc6UYx0kEQPiFPRG2gCkOLZyh3tix8jx2P0eD9" class="imgcarousal">
+            <div class="carousel-caption d-none d-md-block  reviewdiv1">
+               <h2 > Meric Rabic </h2>
+               <p class="ptext"> Finding a home might be one of the hardest steps for an expat, even harder if it is for a family with a baby like ours. A friend recommanded Connect and it was a life safer.</p>
+           </div>
+           </div>
+           <div class="carousel-item" data-bs-interval="6000">
+            <img src="https://media.istockphoto.com/id/1373303234/photo/loving-black-couple-embracing-smiling-to-camera-in-new-house.jpg?b=1&s=170667a&w=0&k=20&c=ufIHWNch9m5Gk1v_5vbJia2VG4AO4s9Qes_e86BBpfA=" class="imgcarousal">
+            <div class="carousel-caption d-none d-md-block reviewdiv1">
+              <h2> Annie Muller</h2>
+              <p class="ptext">When we first stumbled upon this flat on Connect, it seemed almost too good to be true. There must be a catch! But everything was as perfect as it seemed online.</p>
+            </div>
+           </div>
+           <div class="carousel-item" data-bs-interval="4000">
+            <img src="https://media.istockphoto.com/id/673176670/de/foto/portr%C3%A4t-von-junges-paar-l%C3%A4cheln.jpg?s=612x612&w=0&k=20&c=hc7RNixDgOxToEbeqNqnerpWDh3HcdexRilqe8Hxz9g="  class="imgcarousal">
+             <div class="carousel-caption d-none d-md-block reviewdiv1">
+              <h2 >Mark Smith</h2>
+              <p class="ptext">Very tidy and lovely apartments, Connect helps finding apartment in Belin process easy and the apartments are equipped with everything you need. A good bed and nice bathroom.</p>
+             </div>
+           </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviewimg" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviewimg" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </section> 
+<!-- Login Section We will be creating a login section-->
+   <section id="Login">
+    <div class="container-fluid">
+  <div class="row ">
+    <div class="mx-auto  col-sm-6 col-md-6 col-lg-6 col-xl-6">
+      <div class="sign">
+        Signin 
+      </div>
+     <div class="signin">
+       <button type="button"  class="btn  btn-outline-secondary btn-md" >
+        <i class="fa-brands fa-google fa-lg"></i>
+       </button>
+       <button type="btn"   class="btn  btn-outline-secondary btn-md">
+        <i class="fa-brands fa-facebook fa-lg"></i>
+       </button>
+       <button type="btn"  class="btn  btn-outline-secondary btn-md">
+        <i class="fa-brands fa-instagram  fa-lg"></i>
+       </button>
+       <button type="btn"   class="btn  btn-outline-secondary btn-md">
+        <i class="fa-brands fa-github fa-lg"></i>
+       </button>
+       <button type="btn"    class="btn  btn-outline-secondary btn-md">
+        <i class="fa-brands fa-linkedin fa-lg"></i>
+       </button>
+
+     </div>
+  <form class="form1" action="login" post="method" enctype="">
+    <div class="form-group  loginform">
+         <input type="text" class="form-control" id="Email" placeholder="janedoe@">
+         <label  for=""> Email </label>
+      </div>
+      <div class="form-group  loginform">
+           <input type="text" class="form-control " id="password" placeholder="Password">
+           <label  for=""> Password </label>
+        </div>
+     <div>
+    <input type="checkbox" value="Keep me Login" id="Keep me Login">
+    <Label class="keepmelogin">  Keep me Login </Label>
+    </div>
+   <button type="button" class="btn btn-md btn-outline-secondary">
+      Login
+   </button>
+  </form>
+</div>
+</div>
+</div>
+    </section>
+    <footer id="footer">
+      <div class="container-fluid">
+     <div class=" d-flex  justify-content-evenly ">
+            <a href="#" class="divfooter"> Google </a>
+            <a href="#"class="divfooter"> Twitter </a>
+            <a href="#" class="divfooter"> Instagram </a>
+     </div>
+       <p class="d-flex justify-content-center Pfooter"> Connect. </p>
+       <p class="d-flex justify-content-center P1footer">© James Frank 2023-2026.</p>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
