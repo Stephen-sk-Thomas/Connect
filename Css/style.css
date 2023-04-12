@@ -37,9 +37,9 @@ line-height: 1.2;
 /** Transform properity is used to rotate an object in a dev container or not**/
 .contin-img1{
     transform:rotate(0);
-    width:210px;
+    width:250px;
     height: 250px;
-    border-radius: 48%;
+    border-radius: 50%;
 }
 /** class="btn-row1"/class="ul" **/
 .buttonrow1{
