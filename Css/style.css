@@ -43,10 +43,7 @@ line-height: 1.2;
 }
 /** class="btn-row1"/class="ul" **/
 .buttonrow1{
-margin: 2% 2% 2% 0%!Important;
-font-size: 1rem;
-padding-left: 0.75rem;
-padding-right: 0.75rem;
+margin: 2% 2% 2% 0%!important;
 }
 /** Icon section**/
 .Icons{
@@ -110,6 +107,15 @@ font-size: 1rem;
     }
     
     }
+
+@media(max-width: 500px)
+{ .btn-lg{
+    font-size: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+}
+
 /** Signup **/
 .signupbody{
     background-color: #031633!important;
